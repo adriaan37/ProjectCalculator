@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\bin\Debug\netstandard2.0\ProjectCalculator.deps.json
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\bin\Debug\netstandard2.0\ProjectCalculator.dll
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\bin\Debug\netstandard2.0\ref\ProjectCalculator.dll
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\bin\Debug\netstandard2.0\ProjectCalculator.pdb
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.dll
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ref\ProjectCalculator.dll
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.pdb
+C:\Users\Admin\source\repos\ProjectCalculator\ProjectCalculator\ProjectCalculator\obj\Debug\netstandard2.0\ProjectCalculator.csproj.AssemblyReference.cache

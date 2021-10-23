@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectCalculator.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <Frame BackgroundColor= "DarkBlue" >
+            <Label Text="Calculator" TextColor="{AppThemeBinding Light='White', Dark='Black'}"  FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        </Frame>
+        <Frame BackgroundColor= "{AppThemeBinding Light='#69DADB', Dark='Black'}">
+            <Label x:Name="Result" Text="0" TextColor="{AppThemeBinding Light='Black' , Dark='White'}" FontSize="32" FontAttributes="Bold" HorizontalOptions="End" FontFamily="DS-DIGIT.ttf"></Label>
+        </Frame>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="80"  />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="85"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" Grid.Column="3" Text="*" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#113CFC"  FontAttributes="Bold" Padding="20" x:Name="Multiply" Clicked="ButtonCommonOperator_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="-" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#113CFC" FontAttributes="Bold" Padding="20" x:Name="Minus" Clicked="ButtonCommonOperator_Clicked"/>
+            <Button Grid.Row="3" Grid.RowSpan="2" Grid.Column="3" Text="+" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#113CFC" FontAttributes="Bold" Padding="20" Clicked="ButtonCommonOperator_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="3" Text="/" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#113CFC" FontAttributes="Bold" Padding="20"  x:Name="Divide" Clicked="ButtonCommonOperator_Clicked"/>
+
+            <Button Grid.Row="1" Grid.Column="2" Text="6" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="0" Grid.Column="0" Text="7" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked" />
+            <Button Grid.Row="0" Grid.Column="1" Text="8" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="0" Grid.Column="2" Text="9" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+
+            <Button Grid.Row="2" Grid.Column="1" Text="2" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20"  Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="3" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="4" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="5" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20" Clicked="ButtonCommon_Clicked"/>
+
+            <Button Grid.Row="3" Grid.Column="0"  Text="D/L" TextColor="Black" BackgroundColor="White" BorderRadius="30" Padding="20" FontAttributes="Bold" x:Name="currentThemeLabel"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="0" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" Padding="20" FontAttributes="Bold" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="." FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" Padding="20" FontAttributes="Bold" x:Name="Decimal" Clicked="ButtonCommon_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="1" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#1597E5" BorderRadius="30" FontAttributes="Bold" Padding="20"  Clicked="ButtonCommon_Clicked"/>
+
+            <Button Grid.Row="4" Grid.Column="0" Text="C" TextColor="WhiteSmoke" FontAttributes="Bold" BackgroundColor="#113CFC" FontSize="20" Padding="20"   x:Name="Clear" Clicked="Clear_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="1" BackgroundColor="#113CFC" Text="Del" TextColor="WhiteSmoke" FontAttributes="Bold"  FontSize="16" Padding="20" x:Name="DEL" Clicked="DEL_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="2" Text="+/-" TextColor="WhiteSmoke" FontAttributes="Bold" BackgroundColor="#113CFC" FontSize="20" Padding="20" x:Name="Negative"/>
+
+            <Button Grid.Row="5" Grid.ColumnSpan="4" Text="=" FontSize="24" TextColor="{AppThemeBinding Light='White' , Dark='White'}" BackgroundColor="#193498"  Padding="20" FontAttributes="Bold" x:Name="ButtonEquals" Clicked="ButtonEquals_Clicked"/>
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
